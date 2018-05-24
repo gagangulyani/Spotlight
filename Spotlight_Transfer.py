@@ -74,11 +74,9 @@ except Exception as e:
         f=open(logs,"a")
         f.write("="*75+"\n\nError Logs of the Wallpaper Setter by GG\n\n"+"="*75+"\n")
 
-    t="\nDate : {}\nTime : {}".format(time.strftime("%H:%M:%\
-S",time.gmtime()),time.strftime("%d-%m-%Y",time.gmtime()))
+    t="\nDate : {}\nTime : {}".format(time.strftime("%H:%M:%S",time.gmtime()),time.strftime("%d-%m-%Y",time.gmtime()))
     
-    report = "="*75+"\n\n"+t+"\n\n"+"Error Mes\
-sage : "+str(e)+"\n\n"+"="*75+"\n"+"\n"+"="*15+"Finished\n"+"="*15+"\n"
+    report = "="*75+"\n\n"+t+"\n\n"+"Error Message : "+str(e)+"\n\n"+"="*75+"\n"+"\n"+"="*15+"Finished\n"+"="*15+"\n"
 
     print (report)
     
