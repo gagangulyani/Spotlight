@@ -76,7 +76,7 @@ except Exception as e:
 
     t="\nDate : {}\nTime : {}".format(time.strftime("%H:%M:%S",time.gmtime()),time.strftime("%d-%m-%Y",time.gmtime()))
     
-    report = "="*75+"\n\n"+t+"\n\n"+"Error Message : "+str(e)+"\n\n"+"="*75+"\n"+"\n"+"="*15+"Finished\n"+"="*15+"\n"
+    report = "="*75+"\n\n"+t+"\n\n"+"Error Message : "+str(e)+"\n\n"+"="*75+"\n"+"\n"+"="*15+"Finished"+"="*15+"\n"
 
     print (report)
     
