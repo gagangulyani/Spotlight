@@ -66,7 +66,7 @@ try:
 
         
 except Exception as e:
-    logs=r"C://Program Files//Wallpaper_Setter_By_GG//logs.txt"
+    logs=os.path.expanduser("~")+"\\Pictures\\Spotlight\\logs.txt"
     
     if os.path.exists(logs):
         f=open(logs,"a")
